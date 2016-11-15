@@ -1,7 +1,7 @@
 import { Calculator } from '../Calculator';
 
 describe("Calculator", function() {
-  let calculator =
+  let calculator;
   beforeEach(() => {
     calculator = new Calculator();
   });
@@ -9,5 +9,4 @@ describe("Calculator", function() {
   it('is created', () => {
     expect(calculator).to.exist;
   });
-
 });

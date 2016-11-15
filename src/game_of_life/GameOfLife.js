@@ -1,1 +1,3 @@
-console.log('Start here');
+export class GameOfLife {
+
+}
